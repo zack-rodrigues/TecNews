@@ -28,10 +28,10 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Centralizar verticalmente */
-  padding-top: 10%;
-  padding-left: 25%;
-  padding-right: 25%;
-  
+  min-height: calc(
+    100vh - 100px
+  ); /* Ajuste o valor de 100px para a altura do seu rodapé */
+  padding: 10% 25%; /* Ajuste o padding conforme necessário */
 }
 
 .conteudo a {
@@ -40,7 +40,6 @@
   text-decoration: none;
   transition: transform 0.4s ease;
   margin-bottom: 60px; /* Espaçamento entre os itens */
- 
 }
 
 .conteudo a:hover {
@@ -50,6 +49,11 @@
 .conteudo h3 {
   font-size: 15px;
   color: rgb(96, 99, 99);
+}
+.conteudo p {
+  /* Ajuste o valor de 100px para a altura do seu rodapé */
+  /* Ajuste o padding conforme necessário */
+  margin: 0p;
 }
 
 a {
@@ -80,7 +84,7 @@ a:hover {
 
 body {
   overflow-x: hidden;
-  
+  overflow-y: auto;
 }
 
 * {
@@ -98,4 +102,3 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-
