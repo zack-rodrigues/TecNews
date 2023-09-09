@@ -32,6 +32,7 @@
     100vh - 100px
   ); /* Ajuste o valor de 100px para a altura do seu rodapé */
   padding: 10% 25%; /* Ajuste o padding conforme necessário */
+  margin-bottom: 30%;
 }
 
 .conteudo a {
