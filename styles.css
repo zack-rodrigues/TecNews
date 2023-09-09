@@ -28,7 +28,9 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Centralizar verticalmente */
-  padding: 10%;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .conteudo a {
